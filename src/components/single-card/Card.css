@@ -1,0 +1,27 @@
+.single-card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: .7rem;
+    transition: transform .3s;
+}
+
+.single-card:hover {
+    transform: scale(1.1);
+}
+
+.flag-image {
+    width: 15rem;
+}
+
+.symbol-img {
+    width: 5rem;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-title {
+    color: rgb(40, 248, 40);
+    font-weight: 600;
+}
