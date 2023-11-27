@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import { useEffect, useState } from "react"
 import "./Cards.css"
-import Card from "../single-card/card";
+import Card from "../single-card/Card";
 
 const Cards = () => {
     const [country, setCountry] = useState([]);
